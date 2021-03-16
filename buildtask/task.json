@@ -5,10 +5,10 @@
     "description": "NI LabVIEW Build project build",
     "helpMarkDown": "",
     "category": "Build",
-    "author": "chwebdude",
+    "author": "cwalker",
     "version": {
         "Major": 0,
-        "Minor": 1,
+        "Minor": 2,
         "Patch": 0
     },
     "instanceNameFormat": "LabVIEW: Version and build $(projectFile)",
@@ -149,6 +149,14 @@
             "label": "CLI Path",
             "defaultValue": "LabViewCli.exe",
             "required": true,
+            "groupName": "execution"
+        },
+        {
+            "name": "lvpath",
+            "type": "string",
+            "label": "LabVIEW Path",
+            "defaultValue": "",
+            "required": false,
             "groupName": "execution"
         },
         {

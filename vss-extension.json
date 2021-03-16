@@ -2,8 +2,8 @@
     "manifestVersion": 1,
     "id": "labview-build",
     "name": "LabView Build Tools",
-    "version": "1.0.0",
-    "publisher": "chwebdude",
+    "version": "1.1.0",
+    "publisher": "cwalker",
     "public": true,
     "tags": [
         "Build",
